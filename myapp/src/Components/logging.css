@@ -1,0 +1,55 @@
+.main {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    gap: 30px;
+  }
+  .main div {
+    margin: 0 auto;
+    background-color: lightblue;
+    border-radius: 5px;
+  }
+
+  input,
+  button {
+    display: block;
+    padding: 8px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    outline: none;
+    background-color: white;
+    color: gray;
+    margin: 5px 10px;
+    border-radius: 5px;
+    width: 90%;
+  }
+  button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+  }
+
+  input::placeholder {
+    color: gray;
+  }
+
+  button:hover {
+    background-color: green;
+    cursor: pointer;
+  }
+
+  alert {
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: large;
+  }
+  hr{
+      border:1px solid snow;
+  }
